@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+
+</head>
+
+<body>
+    <div id="controls">
+        <div id="info">
+            <button id="start-quiz" href="">Start Quiz</button>
+            <button id="highScoresButton" href="">High Scores</button>
+            <div id="quizdiv" class="hidden">
+                <div id="timer">
+                    <p>Time: <span id="time">75</span></p>
+                </div>
+                <div id="question">
+                    This is question div
+                </div>
+                <div id="answer">
+                    <button id="answer1">a</button>
+                    <button id="answer2">b</button>
+                    <button id="answer3">c</button>
+                    <button id="answer4">d</button>
+                    
+                </div>
+                
+
+
+            </div>
+            <div id="submitHighScoreForm" class="hidden">
+                <label for="initials">Initials:</label>
+                <input type="text" id="initials" name="intials">
+                <button id="highScoresSubmit" >Submit</button>
+            </div>
+            <div id="highScorePage" class="hidden">
+                <ul id="leaderBoard">
+                
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+
+</body>
+
+</html>
